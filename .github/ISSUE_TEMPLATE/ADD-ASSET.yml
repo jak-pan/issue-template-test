@@ -19,14 +19,6 @@ body:
     validations:
       required: true
   - type: input
-    id: name
-    attributes:
-      label: Name
-      description: Add token name
-      placeholder: Ethernal HDX
-    validations:
-      required: true
-  - type: input
     id: token-id
     attributes:
       label: ID
