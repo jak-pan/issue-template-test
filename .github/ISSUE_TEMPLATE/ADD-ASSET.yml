@@ -31,7 +31,7 @@ body:
     attributes:
       label: ID
       description: Hydration token ID
-      placeholder: 10049
+      placeholder: "10049"
     validations:
       required: true
   - type: textarea
