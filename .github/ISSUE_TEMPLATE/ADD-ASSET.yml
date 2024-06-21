@@ -26,11 +26,19 @@ body:
       placeholder: Ethernal HDX
     validations:
       required: true
+  - type: input
+    id: id
+    attributes:
+      label: ID
+      description: Hydration token ID
+      placeholder: 10049
+    validations:
+      required: true
   - type: textarea
     id: icon
     attributes:
       label: Icon
       description: Add token icon in svg format < 50Kb
-      placeholder: drag and drop icon here
+      placeholder: click here then drag and drop icon.
     validations:
       required: true
