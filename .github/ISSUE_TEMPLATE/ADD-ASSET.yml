@@ -1,7 +1,7 @@
 name: Add new token
 description: Add token to hydration apps
-title: "[Icon]: "
-labels: ["icon", "add"]
+title: "Add "
+labels: ["add-token"]
 projects: []
 assignees:
   - jak-pan
