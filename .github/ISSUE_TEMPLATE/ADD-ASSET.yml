@@ -26,7 +26,7 @@ body:
       placeholder: Ethernal HDX
     validations:
       required: true
-  - type: textbox
+  - type: textarea
     id: icon
     attributes:
       label: Icon
