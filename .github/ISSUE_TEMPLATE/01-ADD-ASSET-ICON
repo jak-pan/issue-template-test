@@ -1,0 +1,36 @@
+name: Add new token
+description: Add token to hydration apps
+title: "[Icon]: "
+labels: ["icon", "add"]
+projects: []
+assignees:
+  - jak-pan
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting new token request.
+  - type: input
+    id: ticker
+    attributes:
+      label: Ticker
+      description: Add token Ticker
+      placeholder: ehdx
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Add token name
+      placeholder: Ethernal HDX
+    validations:
+      required: true
+  - type: input
+    id: icon
+    attributes:
+      label: Icon
+      description: Add token icon in svg format < 50Kb
+      placeholder: drag and drop icon here
+    validations:
+      required: true
