@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: input
-    id: id
+    id: token-id
     attributes:
       label: ID
       description: Hydration token ID
